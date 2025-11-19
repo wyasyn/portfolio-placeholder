@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yasin Walum - Full Stack Developer specializing in TypeScript, Python, Machine Learning, and Artificial Intelligence. Portfolio coming soon."
+    />
+    <meta
+      name="keywords"
+      content="Yasin Walum, Full Stack Developer, TypeScript, Python, Machine Learning, AI, Artificial Intelligence, Web Developer Uganda, Kampala Developer"
+    />
+    <meta name="author" content="Yasin Walum" />
+    <meta property="og:title" content="Yasin Walum - Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer specializing in TypeScript, Python, Machine Learning, and AI"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yasinwalum.com" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dkdteb9m5/image/upload/v1739381052/qnsyneuzwomdka0oqvws.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="https://res.cloudinary.com/dkdteb9m5/image/upload/v1739381052/qnsyneuzwomdka0oqvws.jpg"
+    />
+    <link rel="canonical" href="https://yasinwalum.com" />
+    <meta name="robots" content="index, follow" />
+    <!-- <meta name="google-site-verification" content="your-verification-code" /> -->
+
+    <!-- Schema.org Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yasin Walum",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://yasinwalum.com",
+        "sameAs": [
+          "https://github.com/wyasyn",
+          "https://linkedin.com/in/yasin-walum",
+          "https://x.com/wyasyn",
+          "https://instagram.com/ywalum"
+        ],
+        "knowsAbout": [
+          "TypeScript",
+          "Python",
+          "Machine Learning",
+          "Artificial Intelligence"
+        ]
+      }
+    </script>
+
+    <title>
+      Yasin Walum — Full Stack Developer | TypeScript, Python, ML & AI
+    </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072")
+          center/cover no-repeat;
+      }
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(
+          135deg,
+          rgba(15, 23, 42, 0.95) 0%,
+          rgba(30, 41, 59, 0.85) 50%,
+          rgba(15, 23, 42, 0.95) 100%
+        );
+      }
+
+      .container {
+        text-align: center;
+        max-width: 700px;
+        animation: fadeIn 1.2s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 2rem;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        letter-spacing: -0.5px;
+      }
+
+      .bio {
+        font-size: 1.25rem;
+        line-height: 1.8;
+        margin-bottom: 2.5rem;
+        opacity: 0.9;
+        font-weight: 300;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .bio a {
+        color: #60a5fa;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(96, 165, 250, 0.3);
+        transition: border-color 0.3s;
+      }
+
+      .bio a:hover {
+        border-bottom-color: #60a5fa;
+      }
+
+      .status {
+        font-size: 1rem;
+        opacity: 0.8;
+        margin-bottom: 2.5rem;
+        font-style: italic;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .social-links a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: all 0.3s;
+        padding: 0.5rem 0;
+        position: relative;
+      }
+
+      .social-links a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: #fff;
+        transition: width 0.3s;
+      }
+
+      .social-links a:hover {
+        color: #fff;
+      }
+
+      .social-links a:hover::after {
+        width: 100%;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2.2rem;
+        }
+        .bio {
+          font-size: 1.1rem;
+        }
+        .profile-img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <div class="container">
+      <img
+        src="https://res.cloudinary.com/dkdteb9m5/image/upload/v1739381052/qnsyneuzwomdka0oqvws.jpg"
+        alt="Yasin Walum"
+        class="profile-img"
+      />
+      <h1>Yasin Walum</h1>
+      <p class="bio">
+        A full stack developer driven by innovation & problem-solving.
+        Specializing in TypeScript, Python, Machine Learning, and Artificial
+        Intelligence.
+      </p>
+      <p class="status">
+        My 2025 portfolio is under construction—while that's happening, you can
+        find me on:
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/wyasyn" target="_blank" rel="noopener"
+          >GitHub</a
+        >
+        <a
+          href="https://linkedin.com/in/yasin-walum"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a href="https://x.com/wyasyn" target="_blank" rel="noopener">X</a>
+        <a href="https://instagram.com/ywalum" target="_blank" rel="noopener"
+          >Instagram</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
